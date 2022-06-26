@@ -1,0 +1,45 @@
+body, html {
+
+    /* The image used */
+    background-image: url("img/pexels-bram-van-oosterhout-6478886.jpg");
+    max-resolution: res;
+    
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* display: flex;
+     align-items: center;
+     justify-content: center;*/
+
+    font-family: "Calibri Light";
+
+}
+
+
+.center_this_in_body{
+    border: 5px solid greenyellow;
+    border-radius: 10px;
+    height: 25%;
+    width: 20%;
+    background-color: whitesmoke;
+    opacity: 0.9;
+
+    /** text formatting **/
+    text-align: center;
+    word-wrap: break-word;
+    font-size: xx-large;
+    justify-items: center;
+
+    /** div positioning **/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
